@@ -51,15 +51,20 @@
             <label>Name:
                <input type="text" name="applicantName">
             </label>
+
             <label>Email Address:
                 <input type="email" name="applicantEmail">
             </label>
+
             <label for="street">Street Address</label>
                  <input id="street" type="text" name="applicantStreet">
-                 <span class=".form-inline">
-            <label for="city">City</label><br>
+
+            <label for="city">City</label>
+<br>
                 <input id="city" type="text" name="applicantCity" class="city">
+
             <label for="state">State</label>
+            <br>
                 <select id="state" class="state">
                     <option value="AL">Alabama</option>
                     <option value="AK">Alaska</option>
@@ -113,22 +118,22 @@
                     <option value="WI">Wisconsin</option>
                     <option value="WY">Wyoming</option>
                 </select>	
-          
-                <label for="zip">Zip</label>
-                 <input id="zip" type="text" name="applicantzip" class="zip">
+   
+                 <label>ZIP Code</label>
+                 <input type="text" class="zip" pattern="[0-9]{5}" title="Five digit zip code" />
 
-                 </span>
+                 <br><br><br>
 
                 <p>First time adopter?</p>
                   <input class="radio" type="radio" id="yes" name="yes" value="yes">
-                  <label for="html">Yes</label>
+                  <label for="yes">Yes</label>
                   <input class="radio" type="radio" id="no" name="no" value="no">
-                  <label for="css">No</label>
+                  <label for="no">No</label>
                 <br> <br>
                  
 
-            <label class="pickup">Pickup Location
-                <select name="location">
+            <label class="pickup">Pickup Location<br><br>
+                <select name="location" class="location">
                     <option value="">Please select</option>
                     <option value="east">east</option>
                     <option value="west">west</option>
@@ -137,6 +142,8 @@
                 </select>
 
             </label>  
+        
+       
       
             <h4> Dogs Adopted</h4>  
        
@@ -147,21 +154,22 @@
             <img src="images/tucker-good-589776-unsplash.jpg" alt="black dog">
             </div>
             <div class="rside">
-            <p>Lucus<br>
+            <p style="padding-left:1rem; font-size:0.6em;margin-top:-2rem;">Lucus<br>
             Cost to Adopt: $123.45</p>
 
             </div>
 
-            
-            <!-- <img src="images/duffy-brook-350225-unsplash.jpg" alt="bulldog">
-            <p>Lucus<br>
-           Cost to Adopt: $123.45</p> -->
+            <div class="lside2">
+            <img src="images/duffy-brook-350225-unsplash.jpg" alt="bulldog">
+            </div>
+            <div class="rside2">
+            <p style="padding-left:1rem; font-size:0.6em;margin-top:-2rem;">Lucus<br>
+           Cost to Adopt: $123.45</p>
+        </div>
         </div>
         <div>
-            <h4>
-                Total Adoption Cost 
-            </h4>
-            <p>$1234.56</p>
+            <h4>Total Adoption Cost </h4>
+            <span style="font-size:.8em; margin-left:4rem;">$1234.56</span>
 
             </div>
          
@@ -176,7 +184,7 @@
 
    
 
-    </main>
+
 
 
  
