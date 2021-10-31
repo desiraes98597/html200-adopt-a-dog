@@ -13,15 +13,13 @@
 
     
     <script>
-        let adoptFee = 0;
-       
-
+        // alert total fee
+        let adoptFee = 0;     
         function runningTotal(current) {
         adoptFee = Math.round((adoptFee+current+ Number.EPSILON) * 100) / 100;        
         alert('Your total adoption fees are currently '+adoptFee);
         }
-    
-        
+        // alert dog info
         function doginfo(name, breed, fee){
             alert('Hi my name is ' +name+ ', I am a ' +breed+ ' and I cost '+fee+' to adopt.');
         }
@@ -60,7 +58,7 @@
         <div id="sidebar2"></div> 
 
     <!-- title picture and description -->
-    <div id="content1"><img src="images/home-intro.jpg"></div>
+    <div id="content1"><img src="images/home-intro.jpg" alt="a boy and a dog"></div>
         
     <div id="content3"><h1>Adopt a Dog</h1>
        <p>Iduciendisite quo magnatem iuntum quid quaest ea am, 
@@ -180,7 +178,7 @@
 
     <div id="content12">
        
-        <button><a href="dogs.html">See More Dogs </a></button>
+      <a href="dogs.html" class="fcc-btn2">See More Dogs </a>
 
 </div>
      <!-- container2 close -->
