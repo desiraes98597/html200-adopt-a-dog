@@ -7,6 +7,8 @@ alert('Your total adoption fees are currently '+adoptFee);
 document.getElementById("finalAmount").innerHTML = adoptFee = Math.round((adoptFee+ Number.EPSILON) * 100) / 100;
 }
 
+//  Jquery code attempt
+
 // $(runningTotal(current));
 //  {
 //     adoptFee = Math.round((adoptFee+current+ Number.EPSILON) * 100) / 100;        
