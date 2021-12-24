@@ -9,11 +9,15 @@ document.getElementById("finalAmount").innerHTML = adoptFee = Math.round((adoptF
 
 //  Jquery code attempt
 
-// $(runningTotal(current));
-//  {
+// $( document ).ready(function() {
+//     $(runningTotal(current)); {
 //     adoptFee = Math.round((adoptFee+current+ Number.EPSILON) * 100) / 100;        
 //     alert('Your total adoption fees are currently '+adoptFee);
 //     $("#finalAmount").innerHTML = adoptFee = Math.round((adoptFee+ Number.EPSILON) * 100) / 100;
+//     }
+// });
+
+
 
 
 // dog info function
