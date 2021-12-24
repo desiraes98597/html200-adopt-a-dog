@@ -26,6 +26,3 @@ function doginfo(name, breed, fee){
 }
 
 
-// current error messages when I run the jquery on lines 9 through 13
-// checkout.js:9 Uncaught ReferenceError: $ is not defined
-//     at checkout.js:9
