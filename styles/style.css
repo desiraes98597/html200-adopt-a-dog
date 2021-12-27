@@ -1836,8 +1836,45 @@ form,  select, .button-form {
     margin-left:0px;
  
   }
+  
+}
+
+/* contact tablet size */
+
+@media screen and (min-width:768px) and (max-width: 1250px) {
+
+  .container22 {
+    height: 150vh;
+  }
+
+  #content23 h1 {
+    margin-left:-2rem;
+  }
+
+  input, label {
+    margin-left:0px;
+  }
+
+  nav ul{
+    margin-left:8rem;
+  }
+
+  .radio, .pickup, .location {
+    margin-left:0px;
+  }
+
+  #content23 h4 {
+    padding-left:0px;
+  }
+
+  #content23 p {
+    padding-left:0px;
+  }
 
 
 
   
+
 }
+
+
