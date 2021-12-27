@@ -1209,9 +1209,7 @@ main {
 
 }
 
-.photo {
-  background-color: #81b741;
-}
+
 
 .blogimage {
   max-width: 100%;
@@ -1608,12 +1606,12 @@ footer p {
     width: 30%;
   }
   nav ul {
-    margin-left: 5rem;
+    margin-left: 3rem;
   }
 
   #content1  h1{
-    margin-left:2rem;
-    margin-right:4rem;
+    margin-left:3rem;
+    margin-right:3rem;
    }
 
   .content3 h1 {
@@ -1634,7 +1632,7 @@ footer p {
   }
 
   .fcc-btn2 {
-    margin-left: 23%;
+    margin-left: 18%;
     padding: 0.5rem 3rem;
     font-size: 1em;
   }
@@ -1688,10 +1686,15 @@ footer p {
       'content16';
       margin-left: 0px;
       margin-right: 0px;
+      gap:1rem;
   }
   #sidebar1,
   #sidebar2 {
     display: none;
+  }
+
+  #content16 {
+    margin-bottom:1rem;
   }
 }
 
@@ -1721,18 +1724,18 @@ footer p {
   .photo {
     max-width: 100%;
     height: auto;
-    margin-right:3rem;
-    margin-left: 3rem;
+    margin-left: 1rem;
+    padding-bottom:1rem;
   } 
 
   .bloglabel h3 {
-  margin-left:3rem;
+  margin-left:1rem;
   }
 
   .bloglabel p {
     width:100%;
-    margin-right:3rem;
-    margin-left: 2.5rem;
+    margin-right:1rem;
+    margin-left: 1rem;
   }
 }
 
@@ -1742,7 +1745,7 @@ footer p {
 
    .container22 {
      display: grid;
-     height: 300vh;
+     height: 285vh;
      grid-template-columns:  1fr;
      grid-template-rows: 1fr 1fr 1fr;
      grid-template-areas:
@@ -1759,29 +1762,22 @@ footer p {
       margin-right: 0.5rem;
   }
     #content23 h1 {
-      padding-left: 0.5rem;
+      padding-left: 2rem;
       color: #093c60;
       padding-bottom: 1rem;
       padding-top: 1rem;
    }
     #content23 h4 {
-      padding-left: 0.5rem;
+      padding-left: 2rem;
       padding-top: 3rem;
       color: #093c60;
       padding-bottom: 1rem;
    }
-   #content23 p {
-    padding-left: 0.5rem;
-    padding-top: 3rem;
-    color: #093c60;
-    padding-bottom: 1rem;
-  }
+ 
 
   input {
     width: 100%;
-    padding: 0.8rem 2rem;
-    margin-left:1rem;
-    /* margin-right:2rem; */
+    margin-left:2rem;
     margin-bottom:2rem;
   
   }
@@ -1789,7 +1785,7 @@ footer p {
   label {
     width: 100%;
     margin-left:2rem;
-    margin-right:2rem;
+    /* margin-right:2rem; */
     margin-bottom:2rem;
   
   }
@@ -1812,6 +1808,16 @@ footer p {
     margin-left:2rem;
   }
 
+ 
+
+  .rside p {
+    margin-left:2rem;
+  }
+
+  .rside2 p {
+    margin-left:2rem;
+  }
+
 
   .location {
     padding: 0.5rem 0.5rem;
@@ -1825,7 +1831,7 @@ footer p {
     padding-bottom: 4rem;
   }
 
-form, label, select, .button-form,.radio,  .pickup, .location {
+form,  select, .button-form {
     width:100%;
     margin-left:0px;
  
